@@ -14,8 +14,7 @@ githubでkoukitakamori817/processing_templatesをforkする。
 TODO: 左クリックしながら線を引き、右クリックをおすと、円がランダムに光ります。
 
 ## Code review
-
-TODO:
+```
 for (int i =0; i < 20; i++) {
     int num = int(random(1000))%6;
     line(50+num*150,50+i*35, 200+num*150, 50+i*35);
@@ -25,6 +24,7 @@ for (int i =0; i < 20; i++) {
   int[] player;
   player = new int[7];
   ｝
+```
 横線を配列にしてからランダムに出てくるコードを書いて横線がランダムになるように
  特に引用はしていません。
 
