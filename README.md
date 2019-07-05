@@ -1,55 +1,32 @@
 # processing_templates
 
-TODO: ここに自分の作成したprocessing codeの簡単な内容を紹介してください．
+TODO: あみだくじをつくってみました。
+ランダムで横線が引かれ、線をなぞっていきます。
+ゴールしたらマウスをクリックすることでランダムに円が光ります。
 
 ## Installation
+githubでkoukitakamori817/processing_templatesをforkする。
 
-TODO: この項目はclone, pushが終了したら消してください．
 
-githubでdaddygongon/processing_templatesをforkしてください．
-その後，
-```
-> mkdir /home/user_name
-> ssh-keygen
-> ssh-copy-id user_name@host_url
-> cd e:
-> git clone git@github.com:USER_NAME/processing_templates.git
-```
-でcloneしてください．
-
-そこへprocessing codeをcopyした後，
-```
-> git add -A
-> git commit -m 'first commit'
-> git push origin master
-```
-してください．
-: git remote -v
-で出てくるアドレスをLUNAに提出してください．
-このファイル(README.md)の修正も忘れずに．
 
 ## Usage
 
-TODO: ここに使い方を書いてください．
+TODO: 左クリックしながら線を引き、右クリックをおすと、円がランダムに光ります。
 
 ## Code review
 
-TODO: ここにcodeの概要と，どのような意図で作成したかを書いてください．
-どこの誰のコードを基にして書いたかの引用を忘れずに．
-
-sampleをそれぞれのdirectoryに置いています．
-
-今見ている，README.mdはmark downで書いています．
-
-robotx_class/REAME.orgはorg-modeで書いています．コードも綺麗にカラー表示されているでしょう．
-
-もちろんmark downでもcodeを綺麗に表示できます．
-書き方は，googleで調べてください．
-
-``` java
-rect(0, 0, 10, 10);
-```
-なんかです．
+TODO:
+for (int i =0; i < 20; i++) {
+    int num = int(random(1000))%6;
+    line(50+num*150,50+i*35, 200+num*150, 50+i*35);
+    
+  }
+  
+  int[] player;
+  player = new int[7];
+  ｝
+横線を配列にしてからランダムに出てくるコードを書いて横線がランダムになるように
+ 特に引用はしていません。
 
 ## License
 
